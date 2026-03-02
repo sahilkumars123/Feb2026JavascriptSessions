@@ -20,3 +20,23 @@ console.log(10n + 20n * 1n);
 
 
 console.log(Number.MAX_VALUE); //1.7976931348623157e+308
+
+
+
+console.log('Hello coding'); //S.O.priuntln
+
+process.stdout.write('Bye Coding') //it will print the coding in a same line and will not give a empty line
+
+console.log('Hello Javscript');
+
+let path1 = 'C:\\Users\\Documents\\file.txt';
+console.log(path1);
+
+
+let path2 = `C:\\Users\\Documents\\file.txt`;
+console.log(path2);
+
+// --- \f becomes a form feed character(valid escape sequence)
+
+let path3 = String.raw`C:\\Users\\Documents\\file.txt`;
+console.log(path3);
