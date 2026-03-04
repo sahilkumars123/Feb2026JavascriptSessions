@@ -95,3 +95,46 @@ for (let ele of browser2) {
         break;
     }
 }
+
+//reverse the array
+let emp = ['ravi', 'abhi', 'pooja', 'dinesh', 'sandeep'];//0-4:5
+
+//using the index based loop
+for (let m = emp.length - 1; m >= 0; m--) {
+    console.log(emp[m]);
+}
+
+//using a pre-defined method
+let p1 = emp.reverse();
+console.log(p1);
+
+
+//Assignment :: let browser2 = ['chrome', 'edge', 'firefox', 'opera', 'safari'];
+//reverse the array using for...of loop
+
+
+//join(): Adds all the elements of an array into a string, separated by the specified separator string.
+let words = ['hello', 'playwright', 'with test', 'automation'];
+let words1 = words.join('-');
+console.log(words1);
+
+console.log("----------------")
+
+let e1 = ['hello', 'playwright', 'with test', 'automation'];
+//array into csv[comma seprated value]
+let e2 = words.join(',');
+console.log(e2);
+
+console.log("----------------")
+
+// copying and combining using ... (spread opeartor)
+
+let first = [1, 2, 3];
+let second = [...first];
+console.log(second);
+
+let arr1 = [1, 2, 3];
+let arr3 = [4, 5, 6];
+
+let arr4 = [...arr1, ...arr3]; //1,2,3,4,5,6
+console.log(arr4);
