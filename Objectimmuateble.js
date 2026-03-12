@@ -24,7 +24,7 @@ console.log(user);
 //console.log(user); // Cannot assign to read only property 'name' of object '#<Object>'
 
 
-//2. Seal() - it will allow modifications, but wont allow adding/removing
+//2. seal() - it will allow modifications, but wont allow adding/removing
 Object.seal(user);
 user.name = 'rohan';
 console.log(user);

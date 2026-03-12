@@ -13,3 +13,8 @@ let user = {
 console.log(user.age);
 console.log(user.address.pincode);
 console.log(user.address.area.areaname);
+
+
+
+//Assignment
+//how to access the nested object using for in loop

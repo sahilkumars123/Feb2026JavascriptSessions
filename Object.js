@@ -52,4 +52,20 @@ let person = {
 }
 
 person = null;
-console.log(person.age); //in Java NPE -- //In Javascript -- Cannot read properties of null (reading 'age')
+//console.log(person.age); //in Java NPE -- //In Javascript -- Cannot read properties of null (reading 'age')
+
+//Assignment
+let user1 = {
+    name: 'sahil',
+    age: 30,
+    status: 'active',
+    isEmployed: true
+}
+
+
+for (let e in user1) {
+    if (user1[e] === 'active') {
+        console.log(e);
+        break;
+    }
+}
