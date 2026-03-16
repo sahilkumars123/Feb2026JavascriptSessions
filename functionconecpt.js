@@ -8,8 +8,6 @@ function test() {
 test();
 
 
-
-
 //sum(); //hoisting
 function sum() {
     let c = 10 + 20;
